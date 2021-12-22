@@ -1,24 +1,25 @@
 html,
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: Bitter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #210F04;
   color: #fff;
   overflow-x: hidden;
 }
 #root {
   min-height: 100vh;
   display: flex;
+  justify-content: center;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -51,8 +52,7 @@ h1 {
   max-width: calc(100% - 1rem);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  margin: auto;
-  align-content: center;
+  justify-content: center;
   display: flex;
   text-align: center;
 }
@@ -93,7 +93,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #210f04;
 }
 
 .member-page form .card > div {
@@ -110,13 +110,13 @@ h1 {
   background-color: #fff;
   padding: 1rem;
   border-radius: 1rem;
-  color: #000;
+  color: #210f04;
   box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
 }
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: #a6663c;
   color: #fff;
   border: none;
   font-weight: bold;
@@ -128,11 +128,11 @@ button {
 }
 
 button:hover {
-  background-color: #121212;
+  background-color: #a16b47;
 }
 
 button:focus {
-  background-color: #222;
+  background-color: #a16b47;
 }
 
 button:disabled {
