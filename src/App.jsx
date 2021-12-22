@@ -57,7 +57,7 @@ const App = () => {
 
     voteModule
       .hasVoted(proposals[0].proposalId)
-  }, [hasClaimed])
+  }, [hasClaimed, proposals])
 
   // grab members
   useEffect(() => {
